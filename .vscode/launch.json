@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Multi-GNN",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": [
+                "--data", "",
+                "--model", "pna"
+            ],
+            "console": "integratedTerminal"
+        }
+    ,
+    
+    
+        {
+            "name": "Python: Multi-GNN_preprocess",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/format_agentverse.py",
+            "args": [
+                "./data/transaction_generator.csv"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}

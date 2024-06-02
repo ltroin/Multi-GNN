@@ -1,0 +1,173 @@
+{
+    "os": "Linux-6.5.8-custom-x86_64-with-glibc2.31",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-06-02T18:23:04.838296",
+    "startedAt": "2024-06-02T18:23:04.149588",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--data",
+        "",
+        "--model",
+        "pna"
+    ],
+    "state": "running",
+    "program": "/home/zihao/Multi-GNN/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/IBM/Multi-GNN.git",
+        "commit": "252b0252afca109d1d216c411c59ff70753b25fc"
+    },
+    "email": "123201298@qq.com",
+    "root": "/home/zihao/Multi-GNN",
+    "host": "Ltroin",
+    "username": "zihao",
+    "executable": "/home/zihao/anaconda3/envs/multignn/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 1783.7272916666664,
+        "min": 800.0,
+        "max": 4283.333333333333
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1024.762,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3762.011,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1270.687,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3794.68,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2385.036,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3581.701,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1550.287,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3432.269,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1787.665,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3400.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3400.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1628.431,
+            "min": 800.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2063.608,
+            "min": 800.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2699.867,
+            "min": 800.0,
+            "max": 3400.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2789.913,
+            "min": 800.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 146.58277893066406,
+            "used": 131.72437286376953
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 31.009323120117188
+    }
+}

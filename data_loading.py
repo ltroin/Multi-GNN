@@ -13,7 +13,7 @@ def get_data(args, data_config):
     3. PyG Data objects are created with the respective data splits.
     '''
 
-    transaction_file = f"{data_config['paths']['aml_data']}/{args.data}/formatted_transactions.csv" #replace this with your path to the respective AML data objects
+    transaction_file = f"{data_config['paths']['aml_data']}/{args.data}/formatted_transactions_agentverse_moreatt.csv" #replace this with your path to the respective AML data objects
     df_edges = pd.read_csv(transaction_file)
 
     logging.info(f'Available Edge Features: {df_edges.columns.tolist()}')
@@ -29,7 +29,8 @@ def get_data(args, data_config):
     logging.info(f"Number of nodes (holdings doing transcations) = {df_nodes.shape[0]}")
     logging.info(f"Number of transactions = {df_edges.shape[0]}")
 
-    edge_features = ['Timestamp', 'Amount Received', 'Received Currency', 'Payment Format']
+    # edge_features = ['Timestamp', 'Amount Received', 'Received Currency', 'Payment Format']
+    edge_features = ['Timestamp', 'Amount Received', 'Received Currency', 'Payment Format', 'Transaction Authorization Method', 'Transaction Fees', 'Destination Bank ID', 'Transaction Origin', 'Transaction Status']
     node_features = ['Feature']
 
     logging.info(f'Edge features being used: {edge_features}')

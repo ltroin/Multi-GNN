@@ -1,0 +1,35 @@
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_setup.py:_flush():76] Configure stats pid to 19401
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_setup.py:_flush():76] Loading settings from /home/zihao/.config/wandb/settings
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_setup.py:_flush():76] Loading settings from /home/zihao/Multi-GNN/wandb/settings
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/home/zihao/Multi-GNN/main.py', 'program': '/home/zihao/Multi-GNN/main.py'}
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-02 21:00:51,113 INFO    MainThread:19401 [wandb_init.py:_log_setup():527] Logging user logs to /home/zihao/Multi-GNN/wandb/run-20240602_210051-wfk9348k/logs/debug.log
+2024-06-02 21:00:51,114 INFO    MainThread:19401 [wandb_init.py:_log_setup():528] Logging internal logs to /home/zihao/Multi-GNN/wandb/run-20240602_210051-wfk9348k/logs/debug-internal.log
+2024-06-02 21:00:51,114 INFO    MainThread:19401 [wandb_init.py:init():567] calling init triggers
+2024-06-02 21:00:51,114 INFO    MainThread:19401 [wandb_init.py:init():574] wandb.init called with sweep_config: {}
+config: {'epochs': 100, 'batch_size': 8192, 'model': 'pna', 'data': '', 'num_neighbors': [100, 100], 'lr': 0.0006116418195373612, 'n_hidden': 20, 'n_gnn_layers': 2, 'loss': 'ce', 'w_ce1': 1.0003967674742307, 'w_ce2': 7.077633468006714, 'dropout': 0.08340440094051481, 'final_dropout': 0.28812979737686323, 'n_heads': None}
+2024-06-02 21:00:51,114 INFO    MainThread:19401 [wandb_init.py:init():617] starting backend
+2024-06-02 21:00:51,114 INFO    MainThread:19401 [wandb_init.py:init():621] setting up manager
+2024-06-02 21:00:51,117 INFO    MainThread:19401 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-02 21:00:51,120 INFO    MainThread:19401 [wandb_init.py:init():629] backend started and connected
+2024-06-02 21:00:51,128 INFO    MainThread:19401 [wandb_init.py:init():721] updated telemetry
+2024-06-02 21:00:51,149 INFO    MainThread:19401 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-06-02 21:00:51,634 INFO    MainThread:19401 [wandb_run.py:_on_init():2344] communicating current version
+2024-06-02 21:00:51,693 INFO    MainThread:19401 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-02 21:00:51,693 INFO    MainThread:19401 [wandb_init.py:init():805] starting run threads in backend
+2024-06-02 21:00:53,171 INFO    MainThread:19401 [wandb_run.py:_console_start():2323] atexit reg
+2024-06-02 21:00:53,171 INFO    MainThread:19401 [wandb_run.py:_redirect():2178] redirect: wrap_raw
+2024-06-02 21:00:53,172 INFO    MainThread:19401 [wandb_run.py:_redirect():2243] Wrapping output streams.
+2024-06-02 21:00:53,172 INFO    MainThread:19401 [wandb_run.py:_redirect():2268] Redirects installed.
+2024-06-02 21:00:53,173 INFO    MainThread:19401 [wandb_init.py:init():848] run started, returning control to user process
+2024-06-02 21:01:02,543 INFO    MainThread:19401 [wandb_run.py:_finish():2052] finishing run x123201298/your_proj_name/wfk9348k
+2024-06-02 21:01:02,543 INFO    MainThread:19401 [wandb_run.py:_atexit_cleanup():2292] got exitcode: 0
+2024-06-02 21:01:02,544 INFO    MainThread:19401 [wandb_run.py:_restore():2275] restore
+2024-06-02 21:01:02,544 INFO    MainThread:19401 [wandb_run.py:_restore():2281] restore done
+2024-06-02 21:01:08,797 INFO    MainThread:19401 [wandb_run.py:_footer_history_summary_info():3920] rendering history
+2024-06-02 21:01:08,800 INFO    MainThread:19401 [wandb_run.py:_footer_history_summary_info():3952] rendering summary
+2024-06-02 21:01:08,806 INFO    MainThread:19401 [wandb_run.py:_footer_sync_info():3879] logging synced files

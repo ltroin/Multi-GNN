@@ -1,0 +1,109 @@
+2024-06-02 20:23:04,159 INFO    StreamThr :14878 [internal.py:wandb_internal():86] W&B internal server running at pid: 14878, started at: 2024-06-02 20:23:04.158381
+2024-06-02 20:23:04,163 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status
+2024-06-02 20:23:04,166 INFO    WriterThread:14878 [datastore.py:open_for_write():87] open: /home/zihao/Multi-GNN/wandb/run-20240602_202304-xezv7rto/run-xezv7rto.wandb
+2024-06-02 20:23:04,168 DEBUG   SenderThread:14878 [sender.py:send():379] send: header
+2024-06-02 20:23:04,220 DEBUG   SenderThread:14878 [sender.py:send():379] send: run
+2024-06-02 20:23:04,677 INFO    SenderThread:14878 [dir_watcher.py:__init__():211] watching files in: /home/zihao/Multi-GNN/wandb/run-20240602_202304-xezv7rto/files
+2024-06-02 20:23:04,677 INFO    SenderThread:14878 [sender.py:_start_run_threads():1124] run started: xezv7rto with start time 1717352584.155402
+2024-06-02 20:23:04,692 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: check_version
+2024-06-02 20:23:04,692 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: check_version
+2024-06-02 20:23:04,770 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: run_start
+2024-06-02 20:23:04,809 DEBUG   HandlerThread:14878 [system_info.py:__init__():26] System info init
+2024-06-02 20:23:04,810 DEBUG   HandlerThread:14878 [system_info.py:__init__():41] System info init done
+2024-06-02 20:23:04,810 INFO    HandlerThread:14878 [system_monitor.py:start():194] Starting system monitor
+2024-06-02 20:23:04,811 INFO    HandlerThread:14878 [system_monitor.py:probe():214] Collecting system info
+2024-06-02 20:23:04,813 INFO    SystemMonitor:14878 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-02 20:23:04,814 INFO    SystemMonitor:14878 [interfaces.py:start():190] Started cpu monitoring
+2024-06-02 20:23:04,816 INFO    SystemMonitor:14878 [interfaces.py:start():190] Started disk monitoring
+2024-06-02 20:23:04,819 INFO    SystemMonitor:14878 [interfaces.py:start():190] Started gpu monitoring
+2024-06-02 20:23:04,820 INFO    SystemMonitor:14878 [interfaces.py:start():190] Started memory monitoring
+2024-06-02 20:23:04,821 INFO    SystemMonitor:14878 [interfaces.py:start():190] Started network monitoring
+2024-06-02 20:23:04,838 DEBUG   HandlerThread:14878 [system_info.py:probe():150] Probing system
+2024-06-02 20:23:04,845 DEBUG   HandlerThread:14878 [system_info.py:_probe_git():135] Probing git
+2024-06-02 20:23:04,858 DEBUG   HandlerThread:14878 [system_info.py:_probe_git():143] Probing git done
+2024-06-02 20:23:04,858 DEBUG   HandlerThread:14878 [system_info.py:probe():198] Probing system done
+2024-06-02 20:23:04,858 DEBUG   HandlerThread:14878 [system_monitor.py:probe():223] {'os': 'Linux-6.5.8-custom-x86_64-with-glibc2.31', 'python': '3.9.19', 'heartbeatAt': '2024-06-02T18:23:04.838296', 'startedAt': '2024-06-02T18:23:04.149588', 'docker': None, 'cuda': None, 'args': ('--data', '', '--model', 'pna'), 'state': 'running', 'program': '/home/zihao/Multi-GNN/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/IBM/Multi-GNN.git', 'commit': '252b0252afca109d1d216c411c59ff70753b25fc'}, 'email': '123201298@qq.com', 'root': '/home/zihao/Multi-GNN', 'host': 'Ltroin', 'username': 'zihao', 'executable': '/home/zihao/anaconda3/envs/multignn/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 1783.7272916666664, 'min': 800.0, 'max': 4283.333333333333}, 'cpu_freq_per_core': [{'current': 1024.762, 'min': 800.0, 'max': 4700.0}, {'current': 3762.011, 'min': 800.0, 'max': 4700.0}, {'current': 1270.687, 'min': 800.0, 'max': 4700.0}, {'current': 800.0, 'min': 800.0, 'max': 4700.0}, {'current': 800.0, 'min': 800.0, 'max': 4700.0}, {'current': 800.0, 'min': 800.0, 'max': 4700.0}, {'current': 3794.68, 'min': 800.0, 'max': 4700.0}, {'current': 800.0, 'min': 800.0, 'max': 4700.0}, {'current': 2385.036, 'min': 800.0, 'max': 4800.0}, {'current': 3581.701, 'min': 800.0, 'max': 4800.0}, {'current': 1550.287, 'min': 800.0, 'max': 4800.0}, {'current': 800.0, 'min': 800.0, 'max': 4800.0}, {'current': 3432.269, 'min': 800.0, 'max': 4700.0}, {'current': 800.0, 'min': 800.0, 'max': 4700.0}, {'current': 1787.665, 'min': 800.0, 'max': 4700.0}, {'current': 800.0, 'min': 800.0, 'max': 4700.0}, {'current': 800.0, 'min': 800.0, 'max': 3400.0}, {'current': 800.0, 'min': 800.0, 'max': 3400.0}, {'current': 800.0, 'min': 800.0, 'max': 3400.0}, {'current': 1628.431, 'min': 800.0, 'max': 3400.0}, {'current': 2063.608, 'min': 800.0, 'max': 3400.0}, {'current': 2699.867, 'min': 800.0, 'max': 3400.0}, {'current': 800.0, 'min': 800.0, 'max': 3400.0}, {'current': 2789.913, 'min': 800.0, 'max': 3400.0}], 'disk': {'/': {'total': 146.58277893066406, 'used': 131.72437286376953}}, 'gpu': 'NVIDIA GeForce RTX 3080 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3080 Ti Laptop GPU', 'memory_total': 17179869184}], 'memory': {'total': 31.009323120117188}}
+2024-06-02 20:23:04,858 INFO    HandlerThread:14878 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-02 20:23:04,858 INFO    HandlerThread:14878 [system_monitor.py:probe():227] Publishing system info
+2024-06-02 20:23:04,858 DEBUG   HandlerThread:14878 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-02 20:23:05,679 INFO    Thread-17 :14878 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zihao/Multi-GNN/wandb/run-20240602_202304-xezv7rto/files/conda-environment.yaml
+2024-06-02 20:23:06,131 DEBUG   HandlerThread:14878 [system_info.py:_save_conda():222] Saving conda packages done
+2024-06-02 20:23:06,137 INFO    HandlerThread:14878 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-02 20:23:06,140 DEBUG   SenderThread:14878 [sender.py:send():379] send: files
+2024-06-02 20:23:06,140 INFO    SenderThread:14878 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-06-02 20:23:06,305 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: python_packages
+2024-06-02 20:23:06,305 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: python_packages
+2024-06-02 20:23:06,309 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:23:06,310 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:23:06,354 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:23:06,509 DEBUG   SenderThread:14878 [sender.py:send():379] send: telemetry
+2024-06-02 20:23:06,677 INFO    Thread-17 :14878 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zihao/Multi-GNN/wandb/run-20240602_202304-xezv7rto/files/conda-environment.yaml
+2024-06-02 20:23:06,678 INFO    Thread-17 :14878 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zihao/Multi-GNN/wandb/run-20240602_202304-xezv7rto/files/requirements.txt
+2024-06-02 20:23:06,678 INFO    Thread-17 :14878 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zihao/Multi-GNN/wandb/run-20240602_202304-xezv7rto/files/wandb-metadata.json
+2024-06-02 20:23:06,904 INFO    wandb-upload_0:14878 [upload_job.py:push():131] Uploaded file /tmp/tmphvyfuz58wandb/jomvb33v-wandb-metadata.json
+2024-06-02 20:23:09,510 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:14,511 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:19,513 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:21,309 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:23:21,310 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:23:21,311 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:23:24,553 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:29,555 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:34,562 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:35,695 INFO    Thread-17 :14878 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zihao/Multi-GNN/wandb/run-20240602_202304-xezv7rto/files/config.yaml
+2024-06-02 20:23:36,312 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:23:36,314 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:23:36,315 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:23:40,500 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:45,502 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:50,505 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:51,316 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:23:51,316 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:23:51,317 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:23:55,557 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:23:56,711 INFO    Thread-17 :14878 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zihao/Multi-GNN/wandb/run-20240602_202304-xezv7rto/files/output.log
+2024-06-02 20:24:01,042 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:04,821 DEBUG   SystemMonitor:14878 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-02 20:24:04,825 DEBUG   SenderThread:14878 [sender.py:send():379] send: stats
+2024-06-02 20:24:06,311 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:24:06,312 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:24:06,318 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:24:06,607 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:11,608 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:16,609 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:21,315 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:24:21,316 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:24:21,317 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:24:21,661 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:26,662 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:31,664 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:34,829 DEBUG   SenderThread:14878 [sender.py:send():379] send: stats
+2024-06-02 20:24:36,312 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:24:36,313 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:24:36,353 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:24:37,615 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:42,618 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:47,621 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:51,313 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:24:51,314 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:24:51,354 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:24:53,561 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:24:58,568 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:25:03,565 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:25:04,832 DEBUG   SenderThread:14878 [sender.py:send():379] send: stats
+2024-06-02 20:25:06,317 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:25:06,317 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:25:06,361 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:25:09,511 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:25:14,513 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:25:19,515 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:25:21,313 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:25:21,313 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
+2024-06-02 20:25:21,354 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:25:25,465 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:25:30,466 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:25:34,836 DEBUG   SenderThread:14878 [sender.py:send():379] send: stats
+2024-06-02 20:25:35,839 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: status_report
+2024-06-02 20:25:36,318 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-02 20:25:36,318 DEBUG   HandlerThread:14878 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-02 20:25:36,319 DEBUG   SenderThread:14878 [sender.py:send_request():406] send_request: stop_status
